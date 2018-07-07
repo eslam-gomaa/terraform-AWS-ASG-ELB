@@ -43,6 +43,12 @@ terraform -v
 
 # Usage
 
+Insert your AWS `access key` & `secret key` as Environment Variables, In this way we're NOT setting them permanently, you'll need to run these commands again whenever you reopen your terminal
+
+```bash
+export AWS_ACCESS_KEY_ID=<your access key>
+export AWS_SECRET_ACCESS_KEY=<your secret key>
+```
 
 
 ```bash
