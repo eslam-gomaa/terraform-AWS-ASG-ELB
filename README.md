@@ -9,7 +9,7 @@ this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **A
 we will use `ASG` to launch a `cluster` of `EC2` Instances,  monitoring the health of each Instance, replacing failed Instances, and adjusting the size of the cluster in response to load.
 
 * `ASG` distributes the `EC2` instances across multiple `availability zones` 
-  * each `AWS account` has access to different set of `Availability zones`, in this repo, i've choosed `all` availabiltiy zones available in my account
+  * each `AWS account` has access to different set of `Availability zones`, in this repo, i've choosed `all` availability zones available in my account
 
 ## Deploy a Load Balancer
 
