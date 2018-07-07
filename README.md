@@ -13,9 +13,7 @@ we will use `ASG` to launch a `cluster` of `EC2` Instances,  monitoring the heal
 
 ## Deploy a Load Balancer
 
-after deploying the `ASG` you'll have serveral different servers, each with its own ip address, but you need to give your end users only a single IP to hit, and for this we're going to deploy a load balancer to distribute traffic accross your servers and to your end user a single dns name of the load balancer
-
-distributes the incoming traffic across multiple `EC2` instance
+after deploying the `ASG` you'll have serveral different servers, each with its own ip address, but you need to give your end users only a single IP to hit, and for this we're going to deploy a load balancer to distribute traffic accross your servers and to give your end users a single dns name which is the the load balancer dns name
 
 ---
 
