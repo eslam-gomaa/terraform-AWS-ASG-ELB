@@ -21,7 +21,7 @@ after deploying the `ASG` you'll have serveral different servers, each with its 
 
 #### Install Terraform On Linux
 
-To install Terraform download the binray from the download page 
+For other platforms to install Terraform download the binray from the download page
 
 https://www.terraform.io/downloads.html
 
