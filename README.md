@@ -1,4 +1,4 @@
-# Load Balancing between Web Servers with Terraform
+# Creating a Load Balancing between a cluster of web servers on AWS with Terraform
 
 this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **Auto Scaling Group** to provide highly available and efficient web servers
 
