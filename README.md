@@ -1,6 +1,6 @@
 # Creating a Load Balancing between a cluster of web servers on AWS with Terraform
 
-this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **Auto Scaling Group** to provide highly availability and efficient web servers
+this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **Auto Scaling Group** to provide highly available and efficient web servers
 
 
 
@@ -82,4 +82,10 @@ terraform apply
 # yes | if you want to proceed
 ```
 
+* destroy what you've built
+
+```bash
+terraform destroy
+# yes | if you want to proceed
+```
 
