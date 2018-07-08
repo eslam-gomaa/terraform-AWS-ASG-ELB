@@ -24,6 +24,12 @@ resource "aws_security_group" "terraform" {
     to_port = 22
     cidr_blocks = ["0.0.0.0/0"]
   }
+  ingress {
+    from_port = 5000
+    protocol = "tcp"
+    to_port = 5000
+    cidr_blocks = ["0.0.0.0/0"]
+  }
 
   lifecycle {
     create_before_destroy = true
