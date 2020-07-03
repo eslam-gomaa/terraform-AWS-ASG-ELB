@@ -9,7 +9,6 @@
 ---
 
 
-
 This is a Sample code to create a bunch of `webservers` behind a Load Balancer (`ELB`) with an Auto scaling group (`ASG`)
 
 
