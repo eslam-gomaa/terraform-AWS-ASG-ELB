@@ -1,15 +1,21 @@
 
 variable "region" {
-  type = "string"
+  type = string
   default = "us-west-1"
 }
 
-variable "ami" {
-  type = "string"
-  default = "ami-e0ba5c83"
+variable "image_id" {
+  type = string
+  default = "ami-04e59c05167ea7bd5"
 }
 
-variable "instance_type" {
-  type = "string"
+variable "flavor" {
+  type = string
   default = "t2.micro"
 }
+
+variable "ec2_instance_port" {
+  type = number
+  default = 80
+}
+

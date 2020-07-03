@@ -1,19 +1,32 @@
 # Creating a Load Balancing between a cluster of web servers on AWS with Terraform
 
-this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **Auto Scaling Group** to provide highly available and efficient web servers
+
+
+##### Code has been updated to the latest syntax (July 3, 2020)
+
+
+
+---
+
+
+
+This is a Sample code to create a bunch of `webservers` behind a Load Balancer (`ELB`) with an Auto scaling group (`ASG`)
 
 
 
 ### Deploy a Cluster of Web Servers
 
-we will use `ASG` to launch a `cluster` of `EC2` Instances,  monitoring the health of each Instance, replacing failed Instances, and adjusting the size of the cluster in response to load.
+We will use `ASG` to launch a `cluster` of `EC2` Instances,  monitoring the health of each Instance, replacing failed Instances, and adjusting the size of the cluster in response to load.
 
 * `ASG` distributes the `EC2` instances across multiple `availability zones` 
-  * each `AWS account` has access to different set of `Availability zones`, in this repo, i've choosed `all` availability zones available in my account
 
-## Deploy a Load Balancer
 
-after deploying the `ASG` you'll have serveral different servers, each with its own ip address, but you need to give your end users only a single IP to hit, and for this we're going to deploy a load balancer to distribute traffic accross your servers and to give your end users a single dns name which is the the load balancer dns name
+
+### Deploy a Load Balancer
+
+After deploying the `ASG` you'll have several different servers, each with its own IP address, but you need to give your end users only a single IP to hit, and for this we're going to deploy a load balancer to distribute traffic across your servers and to give your end users a single DNS name which is the the load balancer DNS name
+
+
 
 ---
 
@@ -21,7 +34,7 @@ after deploying the `ASG` you'll have serveral different servers, each with its 
 
 # Install Terraform On Linux
 
-For other platforms to install Terraform download the binray from the download page
+For other platforms to install Terraform download the binary from the download page
 
 https://www.terraform.io/downloads.html
 
@@ -29,8 +42,8 @@ https://www.terraform.io/downloads.html
 yum -y install unzip
 
 cd /tmp
-wget https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip
-unzip terraform_0.11.7_linux_amd64.zip -d /usr/bin/
+wget https://releases.hashicorp.com/terraform/0.12.28/terraform_0.12.28_linux_amd64.zip
+unzip terraform_0.12.28_linux_amd64.zip -d /usr/bin/
 
 terraform -v
 ```
@@ -67,7 +80,7 @@ terraform init
 
 
 
-* See what's terraform is planning to do before really doing it
+* See what's Terraform is planning to do before really doing it
 
 ```bash
 terraform plan
@@ -75,7 +88,7 @@ terraform plan
 
 
 
-* build the terraform project
+* build the Terraform project
 
 ```bash
 terraform apply
@@ -88,4 +101,6 @@ terraform apply
 terraform destroy
 # yes | if you want to proceed
 ```
+
+
 

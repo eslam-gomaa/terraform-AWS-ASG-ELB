@@ -1,4 +1,10 @@
 
-output "elb_dns_name" {
-  value = "${aws_elb.terraform-elb.dns_name}"
+output "ALB_DNS_Name" {
+  value = aws_lb.ELB.dns_name
 }
+
+
+
+
+
+
