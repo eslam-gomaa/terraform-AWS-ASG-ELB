@@ -4,9 +4,7 @@
 
 ##### Code has been updated to the latest syntax (July 3, 2020)
 
-<div class="alert alert-warning">
-  <strong>Info!</strong> Indicates a neutral informative change or action.
-</div>
+**<mark>Info</mark> 📌**
 
 ---
 
