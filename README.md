@@ -1,9 +1,9 @@
 # Creating a Load Balancing between a cluster of web servers on AWS with Terraform
 
 
-## Update 📌
+## Update 📌 
 ```
-Code has been updated to the latest syntax (July 3, 2020)
+💡 Code has been updated to the latest syntax (July 3, 2020)
 ```
 
 ---
