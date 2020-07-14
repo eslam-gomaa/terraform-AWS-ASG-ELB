@@ -2,9 +2,8 @@
 
 
 
-##### Code has been updated to the latest syntax (July 3, 2020)
+##### <mark>Code has been updated to the latest syntax (July 3, 2020)</mark> 📌
 
-**<mark>Info</mark> 📌**
 
 ---
 
