@@ -1,4 +1,4 @@
-# Creating a Load Balancing between a cluster of web servers on AWS with Terraform
+# Creating a cluster of web servers with an Elastic Load Balancer on AWS with Terraform
 
 
 ## Update 📢
